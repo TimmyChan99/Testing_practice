@@ -2,7 +2,7 @@
 
 # Testing practice
 
-Write a few practical tests for JavaScript functions using the [Jest](https://jestjs.io/) library. I followed the [AAA pattern](https://github.com/goldbergyoni/javascript-testing-best-practices#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern) to make your tests easier for other developers to read and understand.
+Write a few practical tests for JavaScript functions using the [Jest](https://jestjs.io/) library and the [AAA pattern](https://github.com/goldbergyoni/javascript-testing-best-practices#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern) to make  tests easier for other developers to read and understand.
 
 #### Task 1
 - Write a function *stringLength(string)* that takes any string as an argument and returns its characters count.

@@ -9,9 +9,9 @@ test('expression length', () => {
 });
 
 test('Empty string', () => {
-    expect(stringLength('')).toBe('String is empty or the length is greater than 10 characters');
+    expect(() => { stringLength(''); }).toThrow('String is empty or the length is greater than 10 characters');
 });
 
 test('GoodMorning length', () => {
-    expect(stringLength('GoodMorning')).toBe('String is empty or the length is greater than 10 characters');
+    expect(() => { stringLength('GoodMorning') }).toThrow('String is empty or the length is greater than 10 characters');
 });

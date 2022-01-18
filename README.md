@@ -1,76 +1,38 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Testing practice
 
-> One paragraph statement about the project.
+Write a few practical tests for JavaScript functions using the [Jest](https://jestjs.io/) library and the [AAA pattern](https://github.com/goldbergyoni/javascript-testing-best-practices#-%EF%B8%8F-12-structure-tests-by-the-aaa-pattern) to make  tests easier for other developers to read and understand.
 
-![screenshot](./app_screenshot.png)
-
-Additional description about the project and its features.
-
-## Built With
-
-- Major languages
-- Frameworks
-- Technologies used
-
-## Live Demo
-
-[Live Demo Link](https://livedemo.com)
+#### Task 1
+- Write a function *stringLength(string)* that takes any string as an argument and returns its characters count.
+- Write a test for this function.
+- Expand the function to make it check if the string is at least 1 character long and not longer than 10 characters. Throw errors if those conditions are not met.
+- Add tests for the new functionality.
 
 
-## Getting Started
+#### Task 2
+- Write a function *reverseString(string)* function. It should take a string as an argument and return it reversed.
+- Write at least one test for this function.
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+#### Task 3
+write several tests for each tested function. write all of the tests directly at the top level, but it's better to group related tests so their output is more readable. *Jest* has the `describe()` method just for that. Read about it [here](https://jestjs.io/docs/api#describename-fn) and apply it in the tests for this task:
 
+- Write a simple *calculator* class or object, which will have 4 methods: *add*, *subtract*, *divide*, and *multiply*.
+- Write at least 3 tests for each of the calculator methods.
+- Group tests for each method using `describe()` method.
 
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
-
+#### Task 4 
+In this task we're going to do things differently:
+- Start by writing a test for a *capitalize(string)* function. The test should make sure that this function takes a string as an argument and returns that string with the first character capitalized.
+- Run the test - it should fail because you don’t have the *capitalize(string)* function implemented yet.
+- Now make the tests green by implementing the *capitalize(string)* function. Think about what the minimum amount of code is necessary to pass this test and write it.
 
 ## Authors
 
-👤 **Author1**
+👤 **Fatima Ezzahra**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@TimmyChan99](https://https://github.com/TimmyChan99)
 
-👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page](../../issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
-
-## 📝 License
-
-This project is [MIT](./MIT.md) licensed.
